@@ -1,9 +1,0 @@
----
-- name: Install all security updates with automatic reboots
-  hosts: all
-  vars:
-    scan_use_checksum: false
-    scan_use_recursive: false
-  tasks:
-    - scan_packages:
-    - scan_services:
